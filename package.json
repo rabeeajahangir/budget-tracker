@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server",
-    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,17 +19,14 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
-    "build": "^0.1.4",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "mongoose": "^5.13.7",
     "morgan": "^1.10.0",
-    "sw-precache-webpack-plugin": "^1.0.0",
-    "webpack": "^5.51.1",
-    "webpack-bundle-analyzer": "^4.4.2",
-    "webpack-cli": "^4.8.0"
+   
   },
   "devDependencies": {
+    "nodemon": "^2.0.12",
     "webpack-pwa-manifest": "^4.3.0"
   }
 }
