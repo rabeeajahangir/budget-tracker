@@ -22,6 +22,7 @@ request.onerror = function(event) {
 };
 
 function saveRecord(record) {
+    alert(`Your transaction will be submitted when the connection is re-established.`)
   const transaction = db.transaction(['new_tracker'], 'readwrite');
 
   const budgetObjectStore = transaction.objectStore('new_tracker');
@@ -61,6 +62,7 @@ function uploadBudget() {
           const budgetObjectStore = transaction.objectStore('new_tracker');
           // clear all items in your store
           budgetObjectStore.clear();
+          alert('Your offline transactions have been submitted!')
         })
         .catch(err => {
           // set reference to redirect back here
