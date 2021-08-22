@@ -4,7 +4,7 @@
 This is an easy to use tracker that helps tracker your day to day expenses and keep ypu on tracker.
 
 ## Usage:
-To use the tracker, you have to add the name of the transaction and the amount of the transaction. Then you tell the app to add or subtract from the total. The total is reflected on the top of the page. The graph shows a ratio of income vs expenses.
+To use the tracker, you have to add the name of the transaction and the amount of the transaction. Then you tell the app to add or subtract from the total. The total is reflected on the top of the page. The graph shows a ratio of income vs expenses. To use the app, [Click Here](https://fathomless-refuge-91660.herokuapp.com/)
 
 ## Contributions:
 Starter code provided by Bootcamp
